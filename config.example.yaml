@@ -1,0 +1,10 @@
+server:
+  host: "127.0.0.1"
+  port: 44334
+
+auth:
+  api_token: "replace-with-a-long-random-token"
+
+destinations:
+  - name: news
+    web_hook_url: "https://discord.com/api/webhooks/WEBHOOK_ID/WEBHOOK_TOKEN"
